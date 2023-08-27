@@ -9,7 +9,7 @@ import {
   SignalIcon,
 } from "@heroicons/react/24/outline";
 
-function classNames(...classes: string[]) {
+function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
