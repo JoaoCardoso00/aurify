@@ -46,7 +46,7 @@ export function Hero() {
               </span>
             </Link>
             <a
-              href="#"
+              href="#features"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Saiba mais <span aria-hidden="true">→</span>

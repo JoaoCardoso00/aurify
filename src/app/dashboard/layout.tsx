@@ -116,8 +116,8 @@ export default function Example({ children }: { children: ReactNode }) {
                   <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6 pb-4">
                     <div className="flex h-16 shrink-0 items-center">
                       <img
-                        className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                        className="h-6 w-auto"
+                        src="/logo.svg"
                         alt="Your Company"
                       />
                     </div>
@@ -182,18 +182,6 @@ export default function Example({ children }: { children: ReactNode }) {
                               </li>
                             ))}
                           </ul>
-                        </li>
-                        <li className="mt-auto">
-                          <a
-                            href="#"
-                            className="group -mx-2 flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-indigo-600"
-                          >
-                            <Cog6ToothIcon
-                              className="h-6 w-6 shrink-0 text-gray-400 group-hover:text-indigo-600"
-                              aria-hidden="true"
-                            />
-                            Settings
-                          </a>
                         </li>
                       </ul>
                     </nav>
