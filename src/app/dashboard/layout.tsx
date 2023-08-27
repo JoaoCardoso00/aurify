@@ -115,11 +115,13 @@ export default function Example({ children }: { children: ReactNode }) {
                   {/* Sidebar component, swap this element with another sidebar if you like */}
                   <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6 pb-4">
                     <div className="flex h-16 shrink-0 items-center">
-                      <img
-                        className="h-6 w-auto"
-                        src="/logo.svg"
-                        alt="Your Company"
-                      />
+                      <Link href="/">
+                        <img
+                          className="h-6 w-auto"
+                          src="/logo.svg"
+                          alt="Your Company"
+                        />
+                      </Link>
                     </div>
                     <nav className="flex flex-1 flex-col">
                       <ul role="list" className="flex flex-1 flex-col gap-y-7">
