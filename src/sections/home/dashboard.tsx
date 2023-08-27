@@ -5,44 +5,46 @@ import {
   FingerPrintIcon,
   LockClosedIcon,
   ServerIcon,
+  UserGroupIcon,
+  MapPinIcon,
+  MagnifyingGlassIcon,
 } from "@heroicons/react/20/solid";
 
 const features = [
   {
-    name: "Push to deploy.",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
-    icon: CloudArrowUpIcon,
+    name: "Trânsparencia.",
+    description: "Visualização em tempo real de cada etapa do processo.",
+    icon: MagnifyingGlassIcon,
   },
   {
-    name: "SSL certificates.",
+    name: "Segurança.",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+      "Integridade e confidencialidade das informações ao longo de todo o processo de rastreabilidade do minério de ouro.",
     icon: LockClosedIcon,
   },
   {
-    name: "Simple queues.",
+    name: "Autenticidade.",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.",
-    icon: ArrowPathIcon,
+      "Verificação segura da procedência do minério, assegurando sua origem legítima em lavras de mineração legalmente operantes.",
+    icon: UserGroupIcon,
   },
   {
-    name: "Advanced security.",
+    name: "Gerenciamento de dados.",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
+      "Acesso a dados de produção e qualidade em tempo real, com segurança e confiabilidade.",
     icon: FingerPrintIcon,
   },
   {
-    name: "Powerful API.",
+    name: "Integração.",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+      "Integração com sistemas de marcação molecular do minério, que traz uma camada adicional de garantia de autenticidade.",
     icon: Cog6ToothIcon,
   },
   {
-    name: "Database backups.",
+    name: "Rastreabilidade.",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ",
-    icon: ServerIcon,
+      "A rastreabilidade permite estabelecer um controle eficiente desde a extração até a comercialização.",
+    icon: MapPinIcon,
   },
 ];
 
@@ -52,22 +54,22 @@ export function Dashboard() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">
-            Everything you need
+            Trânsparencia
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            No server? No problem.
+            Visualização em Tempo Real da Procedência do Seu Ouro
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            impedit perferendis suscipit eaque, iste dolor cupiditate
-            blanditiis.
+            Nossa tecnologia de rastreamento em blockchain e verificações
+            precisas coloca o poder de garantir a autenticidade e qualidade do
+            seu ouro diretamente em suas mãos.
           </p>
         </div>
       </div>
       <div className="relative overflow-hidden pt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <img
-            src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+            src="/example_2.webp"
             alt="App screenshot"
             className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
             width={2432}
