@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function CTA() {
   return (
     <div className="bg-white pb-10">
@@ -10,17 +12,15 @@ export function CTA() {
             Saiba mais sobre como implementar o rastreamento do seu produto.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
-              className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Experimente agora
-            </a>
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Aprenda mais <span aria-hidden="true">→</span>
+            <Link href="/dashboard">
+              <span className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                Experimente agora
+              </span>
+            </Link>
+            <a href="#">
+              <span className="text-sm font-semibold leading-6 text-gray-900">
+                Aprenda mais <span aria-hidden="true">→</span>
+              </span>
             </a>
           </div>
         </div>
