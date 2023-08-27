@@ -30,7 +30,7 @@ export function Hero() {
       </svg>
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
-          <img className="h-14" src="/logo-mining.png" alt="Your Company" />
+          <img className="h-8" src="/logo.svg" alt="Your Company" />
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-3xl">
             Garanta a Procedência Confiável do Seu Ouro com Nossa Tecnologia de
             Rastreamento em Blockchain

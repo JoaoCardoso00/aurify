@@ -211,8 +211,8 @@ export default function Example({ children }: { children: ReactNode }) {
             <div className="flex h-16 shrink-0 items-center cursor-pointer">
               <Link href="/">
                 <img
-                  className="h-10 w-auto"
-                  src="/logo-mining.png"
+                  className="h-6 w-auto"
+                  src="/logo.svg"
                   alt="Your Company"
                 />
               </Link>
