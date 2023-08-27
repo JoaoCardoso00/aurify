@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://www.aurify,tech",
+    url: "https://www.aurify.tech",
     title: "Aurify",
     description: "Rastreabilidade do Minério de Ouro Por meio da Blockchain",
     images: [
